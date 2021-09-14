@@ -1,7 +1,6 @@
 const express = require('./services/express')
 const routes = require('./routes')
 const config = require('./config')
-const wss = require('./services/socketServer');
 
 const app = express(routes)
 
